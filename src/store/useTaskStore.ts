@@ -135,8 +135,13 @@ export const useTaskStore = create<TaskStore>((set, get) => ({
       const json = await res.json();
       if (json.success) {
         const newTask: ITask = json.task;
-        // Immediate optimistic addition to UI
-        set((state) => ({ tasks: [newTask, ...state.tasks] }));
+        // Immediate optimistic addition to UI + clear active filters so task is guaranteed visible
+        set((state) => ({
+          tasks: [newTask, ...state.tasks],
+          searchQuery: '',
+          selectedPriority: 'all',
+          selectedTag: 'all',
+        }));
         // Full database sync
         await get().fetchTasks();
         return newTask;
