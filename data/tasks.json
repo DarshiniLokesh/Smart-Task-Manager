@@ -1,0 +1,166 @@
+[
+  {
+    "title": "Persistent Disk Task",
+    "description": "This task is saved to disk and will never disappear on reload",
+    "priority": "urgent",
+    "status": "todo",
+    "dueDate": "2026-08-06T15:00:00.000Z",
+    "tags": [
+      "persistent",
+      "disk"
+    ],
+    "subtasks": [],
+    "order": -1,
+    "_id": "task-1785925539450",
+    "createdAt": "2026-08-05T10:25:39.450Z",
+    "updatedAt": "2026-08-05T10:25:39.450Z"
+  },
+  {
+    "_id": "task-1",
+    "title": "Launch Smart Task Manager MVP",
+    "description": "Finalize Next.js App Router codebase, wire up dnd-kit Kanban board, and deploy to production.",
+    "priority": "urgent",
+    "status": "in_progress",
+    "dueDate": "2026-08-06T04:25:34.441Z",
+    "tags": [
+      "nextjs",
+      "production",
+      "fullstack"
+    ],
+    "subtasks": [
+      {
+        "id": "sub-1",
+        "title": "Setup Next.js 14 App Router & TypeScript",
+        "completed": true
+      },
+      {
+        "id": "sub-2",
+        "title": "Build MongoDB & Mongoose schemas",
+        "completed": true
+      },
+      {
+        "id": "sub-3",
+        "title": "Implement dnd-kit Kanban drag and drop",
+        "completed": true
+      },
+      {
+        "id": "sub-4",
+        "title": "Integrate OpenAI task breakdown API",
+        "completed": true
+      }
+    ],
+    "order": 0,
+    "createdAt": "2026-08-05T10:25:34.441Z",
+    "updatedAt": "2026-08-05T10:25:34.441Z"
+  },
+  {
+    "_id": "task-2",
+    "title": "Design Responsive UI with Glassmorphic Aesthetic",
+    "description": "Create sleek dark mode CSS design tokens, custom cards, animated priority badges, and floating modals.",
+    "priority": "high",
+    "status": "in_progress",
+    "dueDate": "2026-08-07T10:25:34.441Z",
+    "tags": [
+      "design",
+      "css",
+      "tailwind"
+    ],
+    "subtasks": [
+      {
+        "id": "sub-20",
+        "title": "Tailwind custom color tokens setup",
+        "completed": true
+      },
+      {
+        "id": "sub-21",
+        "title": "Glassmorphic modal dialogs",
+        "completed": true
+      }
+    ],
+    "order": 1,
+    "createdAt": "2026-08-05T10:25:34.441Z",
+    "updatedAt": "2026-08-05T10:25:34.441Z"
+  },
+  {
+    "_id": "task-3",
+    "title": "Implement OpenAI AI Task Prioritizer",
+    "description": "Analyze due dates, priority weight, and age using GPT-4o-mini with fallback heuristic algorithm.",
+    "priority": "high",
+    "status": "todo",
+    "dueDate": "2026-08-08T10:25:34.441Z",
+    "tags": [
+      "ai",
+      "openai",
+      "backend"
+    ],
+    "subtasks": [
+      {
+        "id": "sub-30",
+        "title": "Configure OpenAI client and prompt template",
+        "completed": true
+      },
+      {
+        "id": "sub-31",
+        "title": "Write fallback heuristic scoring rule",
+        "completed": true
+      }
+    ],
+    "order": 0,
+    "createdAt": "2026-08-05T10:25:34.441Z",
+    "updatedAt": "2026-08-05T10:25:34.441Z"
+  },
+  {
+    "_id": "task-4",
+    "title": "Configure Inngest Background Job Scanner",
+    "description": "Set up Inngest scheduled functions for automated task due-date notifications.",
+    "priority": "medium",
+    "status": "todo",
+    "dueDate": "2026-08-04T22:25:34.441Z",
+    "tags": [
+      "inngest",
+      "background-jobs"
+    ],
+    "subtasks": [
+      {
+        "id": "sub-40",
+        "title": "Create Inngest client and serve handler",
+        "completed": true
+      },
+      {
+        "id": "sub-41",
+        "title": "Define cron function for overdue tasks",
+        "completed": true
+      }
+    ],
+    "order": 1,
+    "createdAt": "2026-08-05T10:25:34.441Z",
+    "updatedAt": "2026-08-05T10:25:34.441Z"
+  },
+  {
+    "_id": "task-5",
+    "title": "Write Comprehensive Documentation & Deployment Guide",
+    "description": "Provide clear setup instructions, environment variable descriptions, and Vercel deployment guide.",
+    "priority": "low",
+    "status": "done",
+    "dueDate": "2026-08-03T10:25:34.441Z",
+    "tags": [
+      "documentation",
+      "readme"
+    ],
+    "subtasks": [
+      {
+        "id": "sub-50",
+        "title": "Write README.md file",
+        "completed": true
+      },
+      {
+        "id": "sub-51",
+        "title": "Create scripts/seed.ts script",
+        "completed": true
+      }
+    ],
+    "order": 0,
+    "createdAt": "2026-08-05T10:25:34.441Z",
+    "updatedAt": "2026-08-05T10:25:34.441Z"
+  }
+]
